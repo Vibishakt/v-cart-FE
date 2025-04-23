@@ -1,0 +1,51 @@
+.body{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0d67e;
+    height:400px;
+    border: 1px solid black;
+}
+.body-left{
+    flex:1;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 20px;
+    gap:20px;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+   margin:0%;
+   font-weight:600;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+   margin:0%;
+   font-weight:300;
+}
+.body-left-btn{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.body-left-btn button{
+    width: 170px;
+    height: 30px;
+    justify-content: center;
+    background-color: #d974ed;
+    border-radius: 25px;
+}
+.body-right{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body-right img{
+    width:auto;
+    height:350px;
+    overflow: hidden;
+    
+}

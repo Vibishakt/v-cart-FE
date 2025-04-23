@@ -1,0 +1,49 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    background-color:white;
+    box-shadow: 5px 5px rgb(113, 113, 113);
+    border-style: inset;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.nav-logo img{
+    height: auto;
+   width: 150px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap:20px;
+    color: black;
+}
+.nav-menu li{
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap:3px;
+    color:black;
+}
+li:hover{
+    color:#db34eb;
+}
+.nav-login{
+    display: flex;
+    align-items: center;
+}
+.nav-login button{
+    cursor: pointer;
+    background-color: beige;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: 400;
+    box-shadow: 5px;
+}
+button:active{
+    background-color: gray;
+}
