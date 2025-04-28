@@ -5,6 +5,7 @@
     background-color:white;
     box-shadow: 5px 5px rgb(113, 113, 113);
     border-style: inset;
+   
 }
 .nav-logo{
     display: flex;
@@ -28,7 +29,7 @@
     gap:3px;
     color:black;
 }
-li:hover{
+.nav-menu li:hover{
     color:#db34eb;
 }
 .nav-login{
@@ -47,3 +48,4 @@ li:hover{
 button:active{
     background-color: gray;
 }
+
