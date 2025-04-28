@@ -3,6 +3,11 @@ import './Navbar.css'
 import logo from '../Assets/logo.jpeg'
 
 export const Navbar = () => {
+
+  const handleLogin =()=>{
+    localStorage.setItem('name','Vibisha')
+  }
+  
   return (
     <div class='navbar'>
       <div class='nav-logo'>
@@ -15,7 +20,7 @@ export const Navbar = () => {
         <li>Contact</li>
       </ul>
       <div class='nav-login'>
-        <button onClick={()=>localStorage.setItem('name','Vibisha')}>Login</button>
+        <button onClick={handleLogin}>Login</button>
       </div>
     </div>
   )

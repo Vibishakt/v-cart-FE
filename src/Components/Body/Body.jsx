@@ -1,6 +1,7 @@
 import React from 'react'
-import './Body.css' 
-import image2 from '../Assets/image 2.webp'
+import './Body.css' ;
+import image2 from '../Assets/image 2.webp';
+
 const Body = () => {
   return (
     <div class='body'>
@@ -14,6 +15,10 @@ const Body = () => {
         <div class='body-right'>
          <img src={image2} alt=""/>
         </div>
+
     </div>
+    
   )
+
 }
+export default Body
